@@ -45,7 +45,7 @@ I want to become a Frontend Developer.
 ## Education	
 
 * BNTU, speciality: “Industrial and civil builds” (01.09.11-01.07.19);
-* the educational center “SkillUp”, speciality: “Basic web and SQL for software testing”,  “Software testing” (03.09.19-29.11.19); 
+* “SkillUp”, speciality: “Basic web and SQL for software testing”,  “Software testing” (03.09.19-29.11.19); 
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).
 
 ## Languages
