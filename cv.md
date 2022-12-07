@@ -50,5 +50,4 @@ I want to become a Frontend Developer.
 
 ## Languages
 
-* English (A2) 	
-*
+* English (A2) 
