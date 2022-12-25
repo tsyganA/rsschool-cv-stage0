@@ -1,16 +1,9 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-}
-table {
-    border-collapse: collapse;
-}
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
-}
-table.border th {
-    background: #e0e0e0;
-}
+ul.header_li li {
+    display: inline;
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px;
+  }
+
+
+
