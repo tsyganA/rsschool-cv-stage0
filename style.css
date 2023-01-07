@@ -1,17 +1,100 @@
+html {
+  font-size: 18px;
+  background-color: #e0e5e9;
+  font-family: "Roboto", sans-serif;
+}
+
 ul.header_li li {
-    display: inline;
-    margin-right: 5px; /* Отступ слева */
-    border: 1px solid #000; /* Рамка вокруг текста */
-    padding: 3px;
-  }
+  display: inline;
+  margin-right: 15px; /* Отступ слева */
+  padding: 3px;
+}
 
+div.location div {
+  display: inline;
+  margin-right: 100px;    
+}
 
-  .logot {
-    width: 100px;
-  }
+.logot {
+  width: 100px;
+}
 
-
-
+.alignment {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
   
+.avatar {
+  right: 250px;
+  position: absolute;
+}
 
+.vertically {
+  align-items: center;
+}
 
+a {
+  text-decoration: none;
+}
+
+.fon {
+  overflow: hidden;
+  box-shadow: 0 0 5px  #c8d6d6;
+  background-color:  #c8d6d6;
+}
+
+.bg-block {
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.color_fon_about {
+  background: #eedfd8;
+}
+
+.color_fon_skills {
+  background: #93f8c5;
+}
+
+.color_fon_code {
+  background: #ebcef8;
+}
+
+.color_fon_experience {
+  background: #e5f0a7;
+}
+
+.color_fon_education {
+  background: #eedbcc;
+}
+
+.color_fon_languages {
+  background: #f1edc6;
+}
+
+.location {
+  text-align: center;
+  margin-top: 5px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.verh {
+  vertical-align: 10px;
+}
+
+a:hover {
+  color: rgb(247, 126, 79);
+}
+
+.sleva {
+  margin-left: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
