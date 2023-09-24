@@ -12,7 +12,8 @@ ul.header_li li {
 
 div.location div {
   display: inline;
-  margin-right: 100px;    
+  margin-right: 60px;    
+  margin-left: 30px;
 }
 
 .logot {
@@ -20,6 +21,12 @@ div.location div {
 }
 
 .alignment {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.alignment-footer {
   width: 800px;
   margin: 0 auto;
   position: relative;
@@ -36,9 +43,16 @@ div.location div {
 
 a {
   text-decoration: none;
+  font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 15px; */
+    line-height: 160%;
+    color: #9f1491;
 }
 
 .fon {
+  display: flex;
   overflow: hidden;
   box-shadow: 0 0 5px  #c8d6d6;
   background-color:  #c8d6d6;
@@ -77,6 +91,7 @@ a {
 .location {
   text-align: center;
   margin-top: 5px;
+  /* margin-left: 70px; */
 }
 
 li {
@@ -97,4 +112,166 @@ a:hover {
 
 h2 {
   font-size: 20px;
+  margin-left: 15px;
+}
+
+.popup {
+  display: none;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+
+a {
+  font-size: 13px;
+}
+
+.bg-block {
+width: 600px;
+}
+
+/* .fon {
+  width: 600px;
+} */
+
+.alignment {
+  width: 640px;
+}
+
+.avatar {
+  right: 120px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767.98px) {
+
+.lineburg {
+  display: block;
+  height: 2px;
+  width: 30px;
+  margin: 6px auto;
+  background-color: #e11313;
+  transition: 0.5s;
+  margin-top: 9px;
+}
+
+nav {
+  display: none;
+}
+
+.popup {
+  position: fixed;
+  display: flex;
+  top: 0px;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #292929;
+  z-index: 5;
+  transition: all 0.5s ease-in;
+}
+
+.popup.open {
+  right: 0;
+  width: 320px;
+}
+
+.blackout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: block;
+}
+
+.blackout.unactive {
+  display: none;
+}
+
+.alignment.burger {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+.alignment.burger .header_li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 120px;
+}
+
+.alignment.burger ul.header_li li {
+  display: inline;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.burgert {
+  display: block;
+  margin: 9px 0px 9px 355px;
+  z-index: 12;
+  transition: all 0.5s ease-in;
+  width: 30px;
+}
+
+.head.open .burgert.active {
+  transform: translateY(0) translateX(0px) rotate(90deg);
+}
+
+.bg-block {
+  width: 370px;
+}
+
+code{
+  font-size: 14px;
+}
+
+.avatar {
+  display: none;
+}  
+
+
+.alignment-footer {
+  width: 410px;
+}  
+
+.alignment {
+  width: 410px;
+}
+
+.education li {
+  font-size: 15px;
+}
+
+.experience li {
+  font-size: 15px;
+}
+
+a {
+  font-size: 23px;
+}
+
+.verh {
+  font-size: 15px;
+}
+
+
 }

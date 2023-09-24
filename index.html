@@ -9,19 +9,26 @@
     <title>cv tsyhan en</title>
   </head>
   <body> 
-    <header>
+    <div class="blackout unactive"></div>
+    <header class="head">
       <div class="fon">
-        <nav class="alignment">
+        <nav class="alignment" id="alignment">
           <ul class="header_li">
-            <li><a href="#contact-info">Contacts</a></li>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#skill-prof">Skills</a></li>
-            <li><a href="#code-example">Code Example</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#languages">Languages</a></li>
+            <li><a class="lin" href="#contact-info">Contacts</a></li>
+            <li><a class="lin" href="#about-me">About Me</a></li>
+            <li><a class="lin" href="#skill-prof">Skills</a></li>
+            <li><a class="lin" href="#code-example">Code Example</a></li>
+            <li><a class="lin" href="#experience">Experience</a></li>
+            <li><a class="lin" href="#education">Education</a></li>
+            <li><a class="lin" href="#languages">Languages</a></li>
           </ul>
         </nav>  
+        <div class="burgert" id="burger">
+          <span class="lineburg"></span>
+          <span class="lineburg"></span>
+          <span class="lineburg"></span>
+      </div>
+      <div class="popup" id="popup"></div>
       </div>
     </header>
 
@@ -63,26 +70,26 @@
           <h2>Code example</h2>
           <pre>
             <code>
-              function generateCaps(whithoutCaps){
-                var keylistalpha="abcdefghijklmnopqrstuvwxyz";
-                var keylistint="123456789";
-                var keylistspec="!@#$%^&*()+~`|}{[]:;?>./-=";
-                var temp='';
-                  if(whithoutCaps % 2 == 0){
-                  var len = whithoutCaps/2;
-                  } else {
-                  var len = whithoutCaps/2 - 0.5;
-                  }
-                var lens = whithoutCaps - len - 1;
-                var lenspec = whithoutCaps-len-lens;
-              }
+function generateCaps(whithoutCaps){
+  var keylistalpha="abcdefghijklmnopqrstuvwxyz";
+  var keylistint="123456789";
+  var keylistspec="!@#$%^&*()+~`|}{[]:;?>./-=";
+  var temp='';
+    if(whithoutCaps % 2 == 0){
+    var len = whithoutCaps/2;
+    } else {
+    var len = whithoutCaps/2 - 0.5;
+    }
+  var lens = whithoutCaps - len - 1;
+  var lenspec = whithoutCaps-len-lens;
+}
             </code>
           </pre>
         </section>
 
         <section class="bg-block color_fon_experience" id="experience">
           <h2>Experience</h2>
-          <ul>
+          <ul class = "experience">
             <li>BNTU, speciality: “Industrial and civil builds” (01.09.11-01.07.19);</li>
             <li>“SkillUp”, speciality: “Basic web and SQL for software testing”, “Software testing” (03.09.19-29.11.19);</li>
             <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).</li>
@@ -91,7 +98,7 @@
 
         <section class="bg-block color_fon_education" id="education">
           <h2>Education</h2>
-          <ul>
+          <ul class = "education">
             <li>October 2022- November 2022
               <br>iFuture Belarus, Minsk - QA Engineer (full-time work).
               <br>https://marathonbet.by</li>
@@ -114,7 +121,7 @@
     </main>
 
     <footer class="fon">
-        <div class="location">
+        <div class="location alignment-footer">
           <div>
           <a class="verh" href="https://github.com/tsyganA" target="_blank">GitHub</a>
           </div>
@@ -128,6 +135,6 @@
         </div>  
     </footer>
 
-    
+    <script src="script.js"></script>
   </body>
 </html>
