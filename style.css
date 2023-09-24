@@ -119,6 +119,11 @@ h2 {
   display: none;
 }
 
+.stop-scrolling {
+  height: 100vh;
+  overflow: hidden;
+}
+
 
 
 
@@ -147,6 +152,7 @@ width: 600px;
 }
 
 }
+
 
 
 
@@ -226,7 +232,7 @@ nav {
 
 .burgert {
   display: block;
-  margin: 9px 0px 9px 315px;
+  margin: 9px 0px 9px 275px;
   z-index: 12;
   transition: all 0.5s ease-in;
   width: 30px;
@@ -251,11 +257,11 @@ code{
 
 
 .alignment-footer {
-  width: 410px;
+  width: 340px;
 }  
 
 .alignment {
-  width: 400px;
+  width: 340px;
 }
 
 .education li {
@@ -279,19 +285,21 @@ a {
 }
 
 h2 {
-  margin-left: 40px;
-  width: 300px;
+  width: 250px;
 }
 
 li {
   margin-left: 20px;
-  width: 300px;
+  width: 250px;
 }
 
 .sleva {
   margin-left: 60px;
-  width: 300px;
+  width: 270px;
 }
 
+ul {
+  width: 280px;
+}
 
 }
