@@ -46,7 +46,6 @@ a {
   font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    /* font-size: 15px; */
     line-height: 160%;
     color: #9f1491;
 }
@@ -91,7 +90,6 @@ a {
 .location {
   text-align: center;
   margin-top: 5px;
-  /* margin-left: 70px; */
 }
 
 li {
@@ -138,10 +136,6 @@ a {
 .bg-block {
 width: 600px;
 }
-
-/* .fon {
-  width: 600px;
-} */
 
 .alignment {
   width: 640px;
@@ -221,7 +215,7 @@ nav {
   flex-direction: column;
   width: 100%;
   margin-left: 0;
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .alignment.burger ul.header_li li {
